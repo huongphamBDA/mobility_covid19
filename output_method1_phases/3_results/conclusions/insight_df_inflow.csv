@@ -1,0 +1,42 @@
+,SRA Names,phase_1,phase_2,phase_3,phase_4,phase_5,phase_6
+0,CENTRAL SAN DIEGO,stable,stable,stable,stable,stable,stable
+1,PENINSULA,stable,stable,stable,stable,stable,stable
+2,CORONADO,-,increase,-,stable,-,-
+3,NATIONAL CITY,-,increase,-,-,-,-
+4,SOUTHEASTERN SAN DIEGO,-,-,-,stable,-,-
+5,MID-CITY,-,increase,-,-,-,-
+6,KEARNY MESA,-,-,-,-,-,-
+7,COASTAL,-,increase,-,stable,-,-
+8,UNIVERSITY,-,-,-,stable,-,-
+9,DEL MAR-MIRA MESA,-,-,stable,-,-,-
+10,NORTH SAN DIEGO,-,-,-,stable,-,-
+11,POWAY,-,stable,stable,stable,-,-
+12,MIRAMAR,stable,stable,stable,stable,stable,stable
+13,ELLIOTT-NAVAJO,-,stable,stable,stable,-,stable
+14,SWEETWATER,-,increase,-,-,-,-
+15,CHULA VISTA,-,stable,-,stable,-,-
+16,SOUTH BAY,stable,stable,stable,stable,stable,stable
+17,JAMUL,-,stable,stable,stable,-,-
+18,SPRING VALLEY,-,stable,stable,stable,-,-
+19,LEMON GROVE,-,-,-,-,-,-
+20,LA MESA,stable,stable,stable,stable,stable,stable
+21,EL CAJON,stable,stable,stable,stable,stable,stable
+22,SANTEE,-,-,-,stable,-,-
+23,LAKESIDE,-,stable,stable,stable,-,-
+24,HARBISON CREST,-,increase,decrease,stable,-,-
+25,ALPINE,stable,stable,stable,stable,stable,stable
+26,RAMONA,stable,stable,stable,stable,stable,stable
+27,SAN DIEGUITO,-,stable,stable,stable,stable,stable
+28,CARLSBAD,-,-,stable,stable,-,-
+29,OCEANSIDE,-,stable,-,stable,-,-
+30,PENDLETON,-,stable,stable,stable,-,-
+31,ESCONDIDO,-,-,stable,stable,-,-
+32,SAN MARCOS,-,-,stable,stable,-,-
+33,VISTA,-,-,-,stable,-,-
+34,VALLEY CENTER,increase,-,decrease,-,-,-
+35,PAUMA,-,increase,-,-,-,-
+36,FALLBROOK,-,-,stable,stable,-,-
+37,PALOMAR-JULIAN,-,-,-,stable,-,-
+38,LAGUNA-PINE VALLEY,-,-,-,stable,-,-
+39,MOUNTAIN EMPIRE,-,stable,stable,stable,-,-
+40,ANZA-BORREGO SPRINGS,-,-,-,stable,-,-

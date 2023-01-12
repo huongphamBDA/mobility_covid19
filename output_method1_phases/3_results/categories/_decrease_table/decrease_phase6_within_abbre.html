@@ -1,0 +1,956 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>SRA Names</th>
+      <th>case_Cluster_Num</th>
+      <th>case_TS_Count</th>
+      <th>case_Outlier</th>
+      <th>case_Label</th>
+      <th>case_abbre</th>
+      <th>in_Cluster_Num</th>
+      <th>in_TS_Count</th>
+      <th>in_Outlier</th>
+      <th>in_Label</th>
+      <th>in_abbre</th>
+      <th>in_DTW_Value</th>
+      <th>out_Cluster_Num</th>
+      <th>out_TS_Count</th>
+      <th>out_Outlier</th>
+      <th>out_Label</th>
+      <th>out_abbre</th>
+      <th>out_DTW_Value</th>
+      <th>within_Cluster_Num</th>
+      <th>within_TS_Count</th>
+      <th>within_Outlier</th>
+      <th>within_Label</th>
+      <th>within_abbre</th>
+      <th>within_DTW_Value</th>
+      <th>net_Cluster_Num</th>
+      <th>net_TS_Count</th>
+      <th>net_Outlier</th>
+      <th>net_Label</th>
+      <th>net_abbre</th>
+      <th>net_DTW_Value</th>
+      <th>in_within_Cluster_Num</th>
+      <th>in_within_TS_Count</th>
+      <th>in_within_Outlier</th>
+      <th>in_within_Label</th>
+      <th>in_within_abbre</th>
+      <th>in_within_DTW_Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COASTAL</td>
+      <td>0</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.533918</td>
+      <td>2</td>
+      <td>7</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.312512</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1.826037</td>
+      <td>12</td>
+      <td>2</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>0.762900</td>
+      <td>14</td>
+      <td>1</td>
+      <td>increase mid, outlier</td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.761075</td>
+    </tr>
+    <tr>
+      <td>ELLIOTT-NAVAJO</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>3</td>
+      <td>5</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>0.991001</td>
+      <td>7</td>
+      <td>5</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.661403</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.807970</td>
+      <td>1</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>2.979841</td>
+      <td>11</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.468850</td>
+    </tr>
+    <tr>
+      <td>LA MESA</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>5</td>
+      <td>5</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.645587</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>1.977622</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1.514587</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>0.818716</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.059372</td>
+    </tr>
+    <tr>
+      <td>LAKESIDE</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>0.689216</td>
+      <td>7</td>
+      <td>5</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.755233</td>
+      <td>5</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.362038</td>
+      <td>14</td>
+      <td>1</td>
+      <td>decrease low, outlier</td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>3.529881</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>1.904916</td>
+    </tr>
+    <tr>
+      <td>POWAY</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>5</td>
+      <td>5</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.544018</td>
+      <td>3</td>
+      <td>4</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>3.494166</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>3.804886</td>
+      <td>6</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>2.260324</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.405107</td>
+    </tr>
+    <tr>
+      <td>RAMONA</td>
+      <td>0</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>4</td>
+      <td>4</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>0.234755</td>
+      <td>2</td>
+      <td>7</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.362246</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1.863034</td>
+      <td>15</td>
+      <td>3</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>1.574086</td>
+      <td>10</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.173954</td>
+    </tr>
+    <tr>
+      <td>SAN DIEGUITO</td>
+      <td>0</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.309022</td>
+      <td>8</td>
+      <td>1</td>
+      <td>stable mid, outlier</td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.642257</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>3.651970</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>0.851959</td>
+      <td>12</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.767004</td>
+    </tr>
+    <tr>
+      <td>SANTEE</td>
+      <td>0</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>3</td>
+      <td>5</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.280341</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.115501</td>
+      <td>5</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.202214</td>
+      <td>4</td>
+      <td>7</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.178670</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.258364</td>
+    </tr>
+    <tr>
+      <td>CARLSBAD</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.771296</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>4.151175</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>4.892810</td>
+      <td>15</td>
+      <td>3</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>2.076851</td>
+      <td>2</td>
+      <td>2</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>4.847227</td>
+    </tr>
+    <tr>
+      <td>NORTH SAN DIEGO</td>
+      <td>5</td>
+      <td>7</td>
+      <td></td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.182203</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>4.232430</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>5.498417</td>
+      <td>6</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>2.419283</td>
+      <td>2</td>
+      <td>2</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>4.826023</td>
+    </tr>
+    <tr>
+      <td>CENTRAL SAN DIEGO</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>7</td>
+      <td>1</td>
+      <td>increase mid, outlier</td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>3.735425</td>
+      <td>7</td>
+      <td>5</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.404456</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.213285</td>
+      <td>10</td>
+      <td>1</td>
+      <td>increase low, outlier</td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>1.564881</td>
+      <td>13</td>
+      <td>1</td>
+      <td>increase mid, outlier</td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>3.926508</td>
+    </tr>
+    <tr>
+      <td>CHULA VISTA</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>5</td>
+      <td>5</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.310104</td>
+      <td>7</td>
+      <td>5</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.226633</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.128740</td>
+      <td>13</td>
+      <td>2</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>3.429278</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.085803</td>
+    </tr>
+    <tr>
+      <td>EL CAJON</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.646218</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.103066</td>
+      <td>7</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.928784</td>
+      <td>6</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>3.370229</td>
+      <td>15</td>
+      <td>1</td>
+      <td>stable mid, outlier</td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.921519</td>
+    </tr>
+    <tr>
+      <td>MID-CITY</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.113668</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.227643</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.192911</td>
+      <td>11</td>
+      <td>1</td>
+      <td>decrease low, outlier</td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>3.856274</td>
+      <td>12</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.023968</td>
+    </tr>
+    <tr>
+      <td>SAN MARCOS</td>
+      <td>2</td>
+      <td>4</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.594506</td>
+      <td>3</td>
+      <td>4</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.762242</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.931601</td>
+      <td>15</td>
+      <td>3</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>2.317370</td>
+      <td>12</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.924017</td>
+    </tr>
+    <tr>
+      <td>SOUTH BAY</td>
+      <td>3</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>1.742795</td>
+      <td>3</td>
+      <td>4</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.137541</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1.990172</td>
+      <td>1</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>4.583046</td>
+      <td>11</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>1.669548</td>
+    </tr>
+    <tr>
+      <td>SOUTHEASTERN SAN DIEGO</td>
+      <td>6</td>
+      <td>1</td>
+      <td>decrease mid, outlier</td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>3</td>
+      <td>5</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.318428</td>
+      <td>4</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>3.930528</td>
+      <td>7</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.285975</td>
+      <td>3</td>
+      <td>1</td>
+      <td>stable low, outlier</td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>6.376380</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>1.909396</td>
+    </tr>
+    <tr>
+      <td>SPRING VALLEY</td>
+      <td>2</td>
+      <td>4</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>0.723097</td>
+      <td>3</td>
+      <td>4</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.753410</td>
+      <td>5</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1.579805</td>
+      <td>1</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>3.420855</td>
+      <td>9</td>
+      <td>4</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>1.368864</td>
+    </tr>
+    <tr>
+      <td>VISTA</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>3</td>
+      <td>5</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>1.071885</td>
+      <td>7</td>
+      <td>5</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.729449</td>
+      <td>2</td>
+      <td>9</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2.333765</td>
+      <td>16</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>3.442614</td>
+      <td>11</td>
+      <td>3</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.016814</td>
+    </tr>
+    <tr>
+      <td>DEL MAR-MIRA MESA</td>
+      <td>2</td>
+      <td>4</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>2.682034</td>
+      <td>4</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>4.848574</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>6.360167</td>
+      <td>13</td>
+      <td>2</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>2.918657</td>
+      <td>4</td>
+      <td>2</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>5.801806</td>
+    </tr>
+    <tr>
+      <td>ESCONDIDO</td>
+      <td>3</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.786071</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>2.921716</td>
+      <td>10</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>4.339142</td>
+      <td>16</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>4.453140</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>3.457259</td>
+    </tr>
+    <tr>
+      <td>KEARNY MESA</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>2</td>
+      <td>1</td>
+      <td>increase mid, outlier</td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>4.272513</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.160646</td>
+      <td>0</td>
+      <td>3</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>4.548385</td>
+      <td>12</td>
+      <td>2</td>
+      <td></td>
+      <td>increase low</td>
+      <td>IL</td>
+      <td>0.784810</td>
+      <td>4</td>
+      <td>2</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>5.750209</td>
+    </tr>
+    <tr>
+      <td>OCEANSIDE</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>1</td>
+      <td>9</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.649001</td>
+      <td>1</td>
+      <td>7</td>
+      <td></td>
+      <td>stable mid</td>
+      <td>SM</td>
+      <td>3.360506</td>
+      <td>10</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>4.811467</td>
+      <td>16</td>
+      <td>3</td>
+      <td></td>
+      <td>stable low</td>
+      <td>SL</td>
+      <td>3.996604</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>3.971316</td>
+    </tr>
+    <tr>
+      <td>SWEETWATER</td>
+      <td>1</td>
+      <td>8</td>
+      <td></td>
+      <td>decrease mid</td>
+      <td>DM</td>
+      <td>5</td>
+      <td>5</td>
+      <td></td>
+      <td>increase mid</td>
+      <td>IM</td>
+      <td>1.185378</td>
+      <td>4</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>3.940345</td>
+      <td>6</td>
+      <td>2</td>
+      <td></td>
+      <td>decrease high</td>
+      <td>DH</td>
+      <td>5.352714</td>
+      <td>7</td>
+      <td>1</td>
+      <td>decrease low, outlier</td>
+      <td>decrease low</td>
+      <td>DL</td>
+      <td>5.170833</td>
+      <td>8</td>
+      <td>3</td>
+      <td></td>
+      <td>stable high</td>
+      <td>SH</td>
+      <td>3.739335</td>
+    </tr>
+  </tbody>
+</table>
