@@ -1,4 +1,3 @@
-# viz_oct_data_overall and all "oct_data" is because the data was updated on 10/01/2022
 import os
 import pandas
 import plotly.graph_objects as go

@@ -1,6 +1,3 @@
-# first method: thesis_pham_phases
-# folder viz_oct_data_overall is final for visualization (11/22/2022)
-# folder output_method1_phases is final for doing the first method thesis_pham_phases (11/22/2022)
 import os
 import sys
 import pandas

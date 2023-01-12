@@ -1,12 +1,3 @@
-# this is for 14_days approach
-# df_dots are df of all 41 SRAs that case & flow moved in same direction (increase -increase) and have dtw less than 1.0
-# df_dots are created from results_table in the same directory output_method2_14days
-# each df_dots dataframe is created for each flow type, and has different number of rows (days), but same number of
-# columns (41SRAs). Later on these dataframes will be transposed, having same number of rows (41 rows for 41 SRAs) but
-# different column numbers (days that meet the above 2 conditions)
-# created heat maps
-
-# import os
 import numpy
 import pandas
 import plotly.express as px

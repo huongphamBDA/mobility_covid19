@@ -1,6 +1,3 @@
-# This script continues the script get_df_dots_14days to count the days that showed correlation b/w case and flows in
-# 41 San Diego SRAs from 2020-04-01 to 2021-03-01
-
 import os
 import pandas
 import geopandas

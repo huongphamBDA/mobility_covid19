@@ -1,7 +1,3 @@
-# second method: 14 days, using some functions in the first method - thesis_pham_phases
-# folder output_method2_14days is the latest - 11/22/2022
-# no shifting data in this code (if I have time to do the data shifting, it'll be in a new code file)
-# split get_df_dots_14days to a separate python script
 import os
 import numpy
 import pandas
