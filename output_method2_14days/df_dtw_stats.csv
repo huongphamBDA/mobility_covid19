@@ -1,6 +1,0 @@
-,Human mobility flow,max_dtw,min_dtw,mean_dtw,standard deviation_dtw
-0,inflow,47,0,14.1,13.91
-1,netflow,60,0,14.32,15.93
-2,outflow,29,0,7.83,7.66
-3,inwithinflow,31,0,6.34,7.37
-4,withinflow,35,0,8.66,9.69
